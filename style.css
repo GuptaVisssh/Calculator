@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-size: 62.5%;
+}
+
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.main-container{
+    /* height: 30rem; */
+    width: 30rem;
+    border: 0.4rem solid gray;
+    background-color: rgb(84, 81, 81);
+}
+
+.screen{
+    background-color:rgb(6, 6, 6);
+    width: 100%;
+    border: none;
+    height: 9rem;
+    color: white;
+    text-align: right;
+    font-size: 2rem;
+    overflow: none;
+    margin-bottom: 0.9rem;
+}
+
+.row{
+    padding: 1rem;
+}
+
+.btn{
+    font-size: 3rem;
+    margin: 0.3rem;
+    height: 6rem;
+    width: 6rem;
+    cursor: pointer;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+
+
+
+.btn-clear{
+    background-color: red;
+}
+
+.btn-yellow{
+    background-color: yellow;
+}
+.btn-equal{
+    background-color: greenyellow;
+}
+
